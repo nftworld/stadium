@@ -1,0 +1,45 @@
+{
+  "display": {
+    "title": "NFT World Stadium",
+    "favicon": "favicon_asset"
+  },
+  "contact": {
+    "name": "NFT World",
+    "email": "support@nftworld.io"
+  },
+  "owner": "0xd5e9eF1CedAd0D135d543D286a2c190B16cBb89E",
+  "scene": {
+    "parcels": [
+      "-65,-110","-67,-109","-67,-110","-66,-109","-66,-110","-65,-109"
+    ],
+    "base": "-65,-110"
+  },
+  "communications": {
+    "type": "webrtc",
+    "signalling": "https://signalling-01.decentraland.org"
+  },
+  "policy": {
+    "contentRating": "E",
+    "fly": true,
+    "voiceEnabled": true,
+    "blacklist": []
+  },
+  "main": "bin/game.js",
+  "tags": [],
+  "spawnPoints": [
+    {
+      "name": "spawn1",
+      "default": true,
+      "position": {
+        "x": 15,
+        "y": 3,
+        "z": 16
+      },
+      "cameraTarget": {
+        "x": 0,
+        "y": 3,
+        "z": 16
+      }
+    }
+  ]
+}
